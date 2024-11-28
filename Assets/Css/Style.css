@@ -75,11 +75,113 @@ body{
 
 
 /* Her koder Rikke */
+header {
+    
+}
 
+.rBaggrund1 {
+    background-image: url(../Img/buffet.jpg);
+        height: 260px;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
 
+.rBaggrund1 h2 {
+    background-color: var(--christmasRed);
+    padding-top: var(--mdSpacer);
+    padding-bottom: var(--mdSpacer);
+    padding-left: var(--lrgSpacer);
+    padding-right: var(--lrgSpacer);
+    border-radius: 6px;
+}
 
+.rMenu {
+    background-color: var(--pineGreen);
+    padding: 5px;
+    border-radius: 6px;
+    max-width: 100%;
+    margin: 25px;
+}
 
+.rMenu h3 {
+    margin-top: 0;
+    background: var(--pineGreen);
+}
 
+.rMenu p {
+    background: var(--pineGreen);
+}
+
+.rSmallText {
+    font-size: 0.5rem;
+    background: var(--pineGreen);
+}
+
+.rMenu ul {
+    background: var(--pineGreen);
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+.rMenu ul li {
+    background: var(--pineGreen);
+    margin-bottom: 10px;
+    color: var(--snowWhite);
+}
+
+.rMenu p em {
+    background: var(--pineGreen);
+}
+
+.rMenu h4{
+    background: var(--pineGreen);
+    margin-bottom: 0;
+}
+
+.rRightAlign {
+    text-align: end;
+}
+
+.rBanner {
+    background: var(--christmasRed);
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rBanner h2{
+    background: var(--christmasRed);
+}
+
+/* .rBanner button {
+    display: inline-block;
+    background-color: blue;
+    padding-top: var(--smSpacer);
+    padding-bottom: var(--smSpacer);
+    padding-left: var(--lrgSpacer);
+    padding-right: var(--lrgSpacer);
+    border-radius: 6px;
+    
+} */
+
+.rBanner a {
+text-decoration: none;
+color: var(--snowWhite);
+background: var(--golden);
+padding-top: var(--smSpacer);
+padding-bottom: var(--smSpacer);
+padding-left: var(--lrgSpacer);
+padding-right: var(--lrgSpacer);
+border-radius: 6px;
+margin-bottom: var(--lrgSpacer);
+}
 
 
 
