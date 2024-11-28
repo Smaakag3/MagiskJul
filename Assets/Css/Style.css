@@ -1,7 +1,167 @@
+/* Typography */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+/* General CSS */
 *{
     box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+    background: var(--snowWhite);
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    color: var(--snowWhite);
 }
 
 body{
     margin: 0;
+}
+
+
+:root {
+--christmasRed:hsl(341, 95%, 32%);
+--pineGreen:#00835B;
+--snowWhite:#F5F5F5;
+--golden: linear-gradient(90deg, #f9f295, #b88a44);
+
+--smSpacer: 1rem;
+--mdSpacer: 1.5rem;
+--lrgSpacer: 2rem;
+}
+
+
+
+/* Her koder Arni */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Her koder Noah */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Her koder Rikke */
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1000px) {
+    /* Genreal CSS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Her koder Arni */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Her koder Noah */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Her koder Rikke */
 }
