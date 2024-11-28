@@ -78,10 +78,6 @@ div p{
 
 
 
-
-
-
-
 /* Her koder Noah */
 
 
@@ -138,13 +134,41 @@ div p{
 
     /* Her koder Arni */
 
+    h3{
+        text-align: center;
+    }
+
+    img{
+        padding: var(--lrgSpacer);
+        background-color: var(--pineGreen);
+        align-self: center;
+    }
+
+    article{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-color: var(--pineGreen);
+        margin: var(--lrgSpacer) 0;
+        padding: var(--lrgSpacer);
+    }
+
+    article:nth-of-type(odd) img{
+        grid-column: 2;
+    }
+    
+    article:nth-of-type(odd) div{
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    article:nth-of-type(even) img{
+        grid-column: 1;
+    }
 
 
-
-
-
-
-
+div{
+    grid-column: 2;
+}
 
 
 
