@@ -100,6 +100,27 @@ header {
     border-radius: 6px;
 }
 
+.rBaggrund2 {
+    background-image: url(../Img/menneskerDerSpiser.jpeg);
+    height: 260px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rBaggrund2 h2 {
+    background-color: var(--christmasRed);
+    padding-top: var(--mdSpacer);
+        padding-bottom: var(--mdSpacer);
+        padding-left: var(--lrgSpacer);
+        padding-right: var(--lrgSpacer);
+        border-radius: 6px;
+}
+
 .rMenu {
     background-color: var(--pineGreen);
     padding: 5px;
@@ -159,17 +180,6 @@ header {
 .rBanner h2{
     background: var(--christmasRed);
 }
-
-/* .rBanner button {
-    display: inline-block;
-    background-color: blue;
-    padding-top: var(--smSpacer);
-    padding-bottom: var(--smSpacer);
-    padding-left: var(--lrgSpacer);
-    padding-right: var(--lrgSpacer);
-    border-radius: 6px;
-    
-} */
 
 .rBanner a {
 text-decoration: none;
@@ -266,4 +276,13 @@ margin-bottom: var(--lrgSpacer);
 
 
     /* Her koder Rikke */
+.rMenu {
+    display: grid;
+    grid-template-columns: (2,1fr);
+}
+
+
+
+
+
 }
