@@ -33,19 +33,48 @@ body{
 
 /* Her koder Arni */
 
+article img{
+    width: 100%;
+    height: auto;
+}
 
+main h2{
+    background-color: var(--christmasRed);
+    text-align: center;
+    padding: var(--lrgSpacer);
+}
 
+main h3{
+    margin-top: 0;
+}
 
+main div, h3, ul, li{
+    background-color: var(--pineGreen);
+}
 
+div{
+    margin: var(--mdSpacer);
+    padding: var(--smSpacer);
+    border-radius: 6px;
+}
 
+article:nth-of-type(1) div ul{
+    list-style-type: none;
+}
 
+div ul{
+    padding: 0;
+}
 
+ul li{
+    color: var(--snowWhite);
+    margin: var(--smSpacer);
+}
 
-
-
-
-
-
+div p{
+    background-color: var(--pineGreen);
+    line-height: var(--mdSpacer);
+}
 
 
 
