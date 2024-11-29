@@ -121,7 +121,7 @@ header {
         border-radius: 6px;
 }
 
-.rMenu {
+.rMenu1 {
     background-color: var(--pineGreen);
     padding: 5px;
     border-radius: 6px;
@@ -129,12 +129,12 @@ header {
     margin: 25px;
 }
 
-.rMenu h3 {
+.rMenu1 h3 {
     margin-top: 0;
     background: var(--pineGreen);
 }
 
-.rMenu p {
+.rMenu1 p {
     background: var(--pineGreen);
 }
 
@@ -143,23 +143,23 @@ header {
     background: var(--pineGreen);
 }
 
-.rMenu ul {
+.rMenu1 ul {
     background: var(--pineGreen);
     padding-left: 20px;
     margin-top: 5px;
 }
 
-.rMenu ul li {
+.rMenu1 ul li {
     background: var(--pineGreen);
     margin-bottom: 10px;
     color: var(--snowWhite);
 }
 
-.rMenu p em {
+.rMenu1 p em {
     background: var(--pineGreen);
 }
 
-.rMenu h4{
+.rMenu1 h4{
     background: var(--pineGreen);
     margin-bottom: 0;
 }
@@ -193,6 +193,47 @@ border-radius: 6px;
 margin-bottom: var(--lrgSpacer);
 }
 
+.rMenu2 {
+    background-color: var(--pineGreen);
+    padding: 5px;
+    border-radius: 6px;
+    max-width: 100%;
+    margin: 25px;
+}
+
+.rMenu2 h3 {
+    margin-top: 0;
+    background: var(--pineGreen);
+}
+
+.rMenu2 p {
+    background: var(--pineGreen);
+}
+
+.rMenu2 ul {
+    background: var(--pineGreen);
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+.rMenu2 ul li {
+    background: var(--pineGreen);
+    margin-bottom: 10px;
+    color: var(--snowWhite);
+}
+
+.rMenu2 p em {
+    background: var(--pineGreen);
+}
+
+.rMenu2 h4 {
+    background: var(--pineGreen);
+    margin-bottom: 0;
+}
+
+div {
+    background: var(--pineGreen);
+}
 
 
 
@@ -276,13 +317,53 @@ margin-bottom: var(--lrgSpacer);
 
 
     /* Her koder Rikke */
-.rMenu {
+.rMenu1 {
     display: grid;
     grid-template-columns: (2,1fr);
 }
 
+.rMenu1 ul:nth-of-type(1) {
+    grid-column: 1;
+}
 
+.rMenu1 ul:nth-of-type(2) {
+    grid-column: 2;
+}
 
+.rMenu1 p:nth-of-type(1) {
+    grid-column: 1;
+}
 
+.rMenu1 p:nth-of-type(2) {
+    grid-column: 1;
+}
+
+.rMenu1 p:nth-of-type(3) {
+    grid-column: 2;
+}
+
+.rMenu2{
+    max-width: 80vw;
+    align-self: center;
+    padding: var(--smSpacer);
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.menuVenstre {
+    padding-right: var(--smSpacer);
+}
+
+.menuHojre {
+    padding-left: var(--smSpacer);
+}
 
 }
