@@ -20,7 +20,7 @@ body{
 
 :root {
 --christmasRed:hsl(341, 95%, 32%);
---pineGreen:#00835B;
+--pineGreen:rgb(0, 131, 91);
 --snowWhite:#F5F5F5;
 --golden: linear-gradient(90deg, #f9f295, #b88a44);
 
@@ -32,6 +32,7 @@ body{
 
 
 /* Her koder Arni */
+
 
 article img{
     width: 100%;
@@ -241,43 +242,185 @@ div p{
 
 
 
+p{
+    line-height: var(--lrgSpacer);
+}
 
+.introtext{
+    padding: var(--mdSpacer);
+}
 
+.eventlink img{
+    height: auto;
+    width: 100%;
+}
 
+section a{
+    text-decoration: none;
+    color: var(--snowWhite);
+    background-color: rgba(0, 131, 91, 0.5);
+    padding: var(--smSpacer) var(--lrgSpacer);
+    text-align: center;
+}
 
+.eventlink{
+    background-image: url(../Img/familieBillede.jpg);
+    height: 260px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.eventlink img{
+    display: none;
+}
 
+.desktop{
+    display: none;
+}
 
+.eventlink h2{
+    display: none;
+}
 
+.eventlink p{
+    display: none;
+}
 
+.eventlink a:nth-of-type(1){
+    display: none;
+}
 
+.infolink img{
+    display: none;
+}
 
+.infolink h2{
+    display: none;
+}
 
+.infolink p{
+    display: none;
+}
 
+.infolink a:nth-of-type(1){
+    display: none;
+}
 
+.infolink ul{
+    display: none;
+}
 
+.buffetlink h2{
+    display: none;
+}
 
+.buffetlink p{
+    display: none;
+}
+
+.buffetlink ul{
+    display: none;
+}
+
+.buffetlink a:nth-of-type(1){
+    display: none;
+}
+
+.arkadelink h2{
+    display: none;
+}
+
+.arkadelink p{
+    display: none;
+}
+
+.arkadelink ul{
+    display: none;
+}
+
+.arkadelink a:nth-of-type(1){
+    display: none;
+}
+
+.infolink{
+    background-image: url(../Img/parkOppeFra1.jpg);
+    height: 260px;
+    width: 100%;
+    margin-top: var(--lrgSpacer);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buffetlink{
+    background-image: url(../Img/buffet.jpg);
+    height: 260px;
+    width: 100%;
+    margin-top: var(--lrgSpacer);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arkadelink{
+    background-image: url(../Img/shoppingJuleArkaden.jpg);
+    height: 260px;
+    width: 100%;
+    margin-top: var(--lrgSpacer);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eventlink .eventimage{
+    display: none;
+    background-image: url(../Img/familieBillede.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: auto;
+}
+
+.infolink .infoimage{
+    display: none;
+    background-image: url(../Img/parkOppeFra1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: auto;
+}
+
+.buffetlink .buffetimage{
+    display: none;
+    background-image: url(../Img/buffet.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: auto;
+}
+
+.arkadelink .arkadeimage{
+    display: none;
+    background-image: url(../Img/shoppingJuleArkaden.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: auto;
+}
 
 
 
 /* Her koder Noah */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -447,27 +590,27 @@ div {
 
 
 
+
+
+
+
+
+
+/* Her koder Rikke */
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width:1000px) {
     /* Genreal CSS */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /* Her koder Arni */
 
     h3{
         text-align: center;
@@ -765,7 +908,240 @@ div{
 
 
 
+    /* Her koder Arni */
 
+    .introtext{
+        margin: var(--lrgSpacer);
+        padding: var(--lrgSpacer);
+    }
+
+    .introtext h1{
+        text-align: center;
+    }
+
+    .eventlink{
+        background: var(--christmasRed);
+        display: grid;
+        height: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--mdSpacer);
+        padding: var(--lrgSpacer);
+    }
+
+    .eventlink .eventimage{
+        display: block;
+        grid-column: 1;
+        grid-row: 1 / 4;
+    }
+
+    .eventlink a:nth-of-type(1){
+        display: inline;
+        background: var(--golden);
+        grid-column: 2;
+        grid-row: 3;
+        margin: var(--smSpacer) var(--lrgSpacer);
+        border-radius: 6px;
+    }
+
+    .eventlink a:nth-of-type(2){
+        display: none;
+    }
+
+    .eventlink p {
+        display: block;
+        grid-column: 2;
+        grid-row: 2;
+        padding: var(--lrgSpacer);
+        align-self: flex-start;
+    }
+
+    .eventlink h2 {
+        display: block;
+        grid-column: 2;
+        grid-row: 1;
+        background: var(--christmasRed);
+        text-align: center;
+    }
+
+    .infolink {
+         background: var(--pineGreen);
+         display: grid;
+         height: 100%;
+         grid-template-columns: repeat(2, 1fr);
+         gap: var(--mdSpacer);
+         padding: var(--lrgSpacer);
+     }
+
+     .infolink .infoimage{
+        display: block;
+        grid-column: 2;
+        grid-row: 1 / 7;
+     }
+
+    .infolink a:nth-of-type(2){
+        display: none;
+    }
+
+    .infolink a:nth-of-type(1){
+        display: inline;
+        background: var(--golden);
+        grid-column: 1;
+        grid-row: 6;
+        margin: var(--smSpacer) var(--lrgSpacer);
+        border-radius: 6px;
+    }
+
+    .infolink h2{
+        display: block;
+        grid-column: 1;
+        grid-row: 1;
+        background-color: var(--pineGreen);
+        text-align: center;
+    }
+
+    .infolink p{
+        background-color: var(--pineGreen);
+    }
+
+    .infolink p:nth-of-type(1){
+        grid-column: 1;
+        grid-row: 2;
+        margin-bottom: 0;
+        display: block;
+    }
+
+    .infolink p:nth-of-type(2){
+        display: block;
+        margin: 0;
+        grid-column: 1;
+        grid-row: 3;
+    }
+    
+    .infolink p:nth-of-type(3){
+        grid-column: 1;
+        grid-row: 5;
+        display: block;
+    }
+
+    .infolink ul{
+        display: block;
+        margin: 0;
+        background-color: var(--pineGreen);
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    .infolink ul li{
+        background-color: var(--pineGreen);
+        color: var(--snowWhite);
+    }
+
+    .buffetlink{
+        background: var(--christmasRed);
+        display: grid;
+        height: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--mdSpacer);
+        padding: var(--lrgSpacer);
+    }
+
+    .buffetlink .buffetimage{
+        display: block;
+        grid-column: 1;
+        grid-row: 1 / 7;
+    }
+
+    .buffetlink a:nth-of-type(2){
+        display: none;
+    }
+
+
+    .buffetlink p{
+        display: block;
+        grid-column: 2;
+        margin: 0;
+    }
+
+    .buffetlink ul{
+        display: block;
+        grid-column: 2;
+        background-color: var(--christmasRed);
+        margin: 0;
+    }
+
+    .buffetlink ul li{
+        background-color: var(--christmasRed);
+        color: var(--snowWhite);
+    }
+
+    .buffetlink h2{
+        display: block;
+        grid-column: 2;
+        background-color: var(--christmasRed);
+        text-align: center;
+    }
+
+    .buffetlink a:nth-of-type(1){
+        display: inline;
+        grid-column: 2;
+        background: var(--golden);
+        margin: var(--smSpacer) var(--lrgSpacer);
+        border-radius: 6px;
+    }
+
+    .arkadelink{
+        background: var(--pineGreen);
+        display: grid;
+        height: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--mdSpacer);
+        padding: var(--lrgSpacer);
+    }
+
+    .arkadelink .arkadeimage{
+        display: block;
+        grid-column: 2;
+        grid-row: 1 / 7;
+    }
+
+    .arkadelink a:nth-of-type(2){
+        display: none;
+    }
+    
+    .arkadelink a:nth-of-type(1){
+        display: block;
+        grid-column: 1;
+        background: var(--golden);
+        margin: var(--smSpacer) var(--lrgSpacer);
+        border-radius: 6px;
+    }
+
+    .arkadelink h2{
+        display: block;
+        text-align: center;
+        background-color: var(--pineGreen);
+    }
+
+    .arkadelink p{
+        display: block;
+        grid-column: 1;
+        margin: 0;
+    }
+
+    .arkadelink ul{
+        display: block;
+        background-color: var(--pineGreen);
+        grid-column: 1;
+    }
+
+    .arkadelink ul li{
+        background-color: var(--pineGreen);
+        color: var(--snowWhite);
+    }
+
+    .arkadelink p{
+        background-color: var(--pineGreen);
+    }
 
 
 
