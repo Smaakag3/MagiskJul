@@ -20,7 +20,7 @@ body{
 
 :root {
 --christmasRed:hsl(341, 95%, 32%);
---pineGreen:#00835B;
+--pineGreen:rgb(0, 131, 91);
 --snowWhite:#F5F5F5;
 --golden: linear-gradient(90deg, #f9f295, #b88a44);
 
@@ -33,19 +33,97 @@ body{
 
 /* Her koder Arni */
 
+.introtext, h1, p{
+    background-color: var(--christmasRed);
+}
 
+p{
+    line-height: var(--lrgSpacer);
+}
 
+.introtext{
+    padding: var(--mdSpacer);
+}
 
+.eventlink img{
+    height: auto;
+    width: 100%;
+}
 
+section a{
+    text-decoration: none;
+    color: var(--snowWhite);
+    background-color: rgba(0, 131, 91, 0.5);
+    padding: var(--smSpacer) var(--lrgSpacer);
+    text-align: center;
+}
 
+.eventlink{
+    background-image: url(../Img/familieBillede.jpg);
+    height: 260px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.eventlink img{
+    display: none;
+}
 
+.desktop{
+    display: none;
+}
 
+.eventlink h2{
+    display: none;
+}
 
+.eventlink p{
+    display: none;
+}
 
+.eventlink a:nth-of-type(1){
+    display: none;
+}
 
+.infolink{
+    background-image: url(../Img/parkOppeFra1.jpg);
+    height: 260px;
+    width: 100%;
+    margin-top: var(--lrgSpacer);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.buffetlink{
+    background-image: url(../Img/buffet.jpg);
+    height: 260px;
+    width: 100%;
+    margin-top: var(--lrgSpacer);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.arkadelink{
+    background-image: url(../Img/shoppingJuleArkaden.jpg);
+    height: 260px;
+    width: 100%;
+    margin-top: var(--lrgSpacer);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
@@ -109,13 +187,53 @@ body{
 
     /* Her koder Arni */
 
+    .introtext{
+        margin: var(--lrgSpacer);
+        padding: var(--lrgSpacer);
+    }
 
+    .introtext h1{
+        text-align: center;
+    }
 
+    .eventlink{
+        background: var(--christmasRed);
+        display: grid;
+        height: 100%;
+        grid-template-columns: repeat(2, 1fr);
+    }
 
+    .eventlink a:nth-of-type(1){
+        display: inline-block;
+        background: var(--golden);
+        grid-column: 2;
+        grid-row: 3;
+        margin: var(--smSpacer) var(--lrgSpacer);
+    }
 
+    .eventlink a:nth-of-type(2){
+        display: none;
+    }
 
+    .eventlink img {
+        display: inline;
+        grid-column: 1;
+        grid-row: 2;
+    }
 
+    .eventlink p {
+        display: block;
+        grid-column: 2;
+        grid-row: 2;
+    }
 
+    .eventlink h2 {
+        display: block;
+        grid-column: 2;
+        grid-row: 1;
+        background: var(--christmasRed);
+        text-align: center;
+    }
 
 
 
