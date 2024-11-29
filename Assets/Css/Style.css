@@ -33,9 +33,214 @@ body{
 
 /* Her koder Arni */
 
-.introtext, h1, p{
-    background-color: var(--christmasRed);
+
+article img{
+    width: 100%;
+    height: auto;
 }
+
+main h2{
+    background-color: var(--christmasRed);
+    text-align: center;
+    padding: var(--lrgSpacer);
+}
+
+main h3{
+    margin-top: 0;
+}
+
+main div, h3, ul, li{
+    background-color: var(--pineGreen);
+}
+
+div{
+    margin: var(--mdSpacer);
+    padding: var(--smSpacer);
+    border-radius: 6px;
+}
+
+article:nth-of-type(1) div ul{
+    list-style-type: none;
+}
+
+div ul{
+    padding: 0;
+}
+
+ul li{
+    color: var(--snowWhite);
+    margin: var(--smSpacer);
+}
+
+div p{
+    background-color: var(--pineGreen);
+    line-height: var(--mdSpacer);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 p{
     line-height: var(--lrgSpacer);
@@ -219,11 +424,166 @@ section a{
 
 
 
+/* Her koder Rikke */
+header {
+    
+}
 
+.rBaggrund1 {
+    background-image: url(../Img/buffet.jpg);
+        height: 260px;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
 
+.rBaggrund1 h2 {
+    background-color: var(--christmasRed);
+    padding-top: var(--mdSpacer);
+    padding-bottom: var(--mdSpacer);
+    padding-left: var(--lrgSpacer);
+    padding-right: var(--lrgSpacer);
+    border-radius: 6px;
+}
 
+.rBaggrund2 {
+    background-image: url(../Img/menneskerDerSpiser.jpeg);
+    height: 260px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.rBaggrund2 h2 {
+    background-color: var(--christmasRed);
+    padding-top: var(--mdSpacer);
+        padding-bottom: var(--mdSpacer);
+        padding-left: var(--lrgSpacer);
+        padding-right: var(--lrgSpacer);
+        border-radius: 6px;
+}
 
+.rMenu1 {
+    background-color: var(--pineGreen);
+    padding: 5px;
+    border-radius: 6px;
+    max-width: 100%;
+    margin: 25px;
+}
+
+.rMenu1 h3 {
+    margin-top: 0;
+    background: var(--pineGreen);
+}
+
+.rMenu1 p {
+    background: var(--pineGreen);
+}
+
+.rSmallText {
+    font-size: 0.5rem;
+    background: var(--pineGreen);
+}
+
+.rMenu1 ul {
+    background: var(--pineGreen);
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+.rMenu1 ul li {
+    background: var(--pineGreen);
+    margin-bottom: 10px;
+    color: var(--snowWhite);
+}
+
+.rMenu1 p em {
+    background: var(--pineGreen);
+}
+
+.rMenu1 h4{
+    background: var(--pineGreen);
+    margin-bottom: 0;
+}
+
+.rRightAlign {
+    text-align: end;
+}
+
+.rBanner {
+    background: var(--christmasRed);
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rBanner h2{
+    background: var(--christmasRed);
+}
+
+.rBanner a {
+text-decoration: none;
+color: var(--snowWhite);
+background: var(--golden);
+padding-top: var(--smSpacer);
+padding-bottom: var(--smSpacer);
+padding-left: var(--lrgSpacer);
+padding-right: var(--lrgSpacer);
+border-radius: 6px;
+margin-bottom: var(--lrgSpacer);
+}
+
+.rMenu2 {
+    background-color: var(--pineGreen);
+    padding: 5px;
+    border-radius: 6px;
+    max-width: 100%;
+    margin: 25px;
+}
+
+.rMenu2 h3 {
+    margin-top: 0;
+    background: var(--pineGreen);
+}
+
+.rMenu2 p {
+    background: var(--pineGreen);
+}
+
+.rMenu2 ul {
+    background: var(--pineGreen);
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+.rMenu2 ul li {
+    background: var(--pineGreen);
+    margin-bottom: 10px;
+    color: var(--snowWhite);
+}
+
+.rMenu2 p em {
+    background: var(--pineGreen);
+}
+
+.rMenu2 h4 {
+    background: var(--pineGreen);
+    margin-bottom: 0;
+}
+
+div {
+    background: var(--pineGreen);
+}
 
 
 
@@ -251,6 +611,285 @@ section a{
 
 @media screen and (min-width:1000px) {
     /* Genreal CSS */
+
+    h3{
+        text-align: center;
+    }
+
+    img{
+        padding: var(--lrgSpacer);
+        background-color: var(--pineGreen);
+        align-self: center;
+    }
+
+    article{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-color: var(--pineGreen);
+        margin: var(--lrgSpacer) 0;
+        padding: var(--lrgSpacer);
+    }
+
+    article:nth-of-type(odd) img{
+        grid-column: 2;
+    }
+    
+    article:nth-of-type(odd) div{
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    article:nth-of-type(even) img{
+        grid-column: 1;
+    }
+
+
+div{
+    grid-column: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -540,4 +1179,53 @@ section a{
 
 
     /* Her koder Rikke */
+.rMenu1 {
+    display: grid;
+    grid-template-columns: (2,1fr);
+}
+
+.rMenu1 ul:nth-of-type(1) {
+    grid-column: 1;
+}
+
+.rMenu1 ul:nth-of-type(2) {
+    grid-column: 2;
+}
+
+.rMenu1 p:nth-of-type(1) {
+    grid-column: 1;
+}
+
+.rMenu1 p:nth-of-type(2) {
+    grid-column: 1;
+}
+
+.rMenu1 p:nth-of-type(3) {
+    grid-column: 2;
+}
+
+.rMenu2{
+    max-width: 80vw;
+    align-self: center;
+    padding: var(--smSpacer);
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.menuVenstre {
+    padding-right: var(--smSpacer);
+}
+
+.menuHojre {
+    padding-left: var(--smSpacer);
+}
+
 }
