@@ -325,7 +325,7 @@ section a{
     }
 
     .infolink {
-         background: var(--christmasRed);
+         background: var(--pineGreen);
          display: grid;
          height: 100%;
          grid-template-columns: repeat(2, 1fr);
@@ -356,8 +356,12 @@ section a{
         display: block;
         grid-column: 1;
         grid-row: 1;
-        background-color: var(--christmasRed);
+        background-color: var(--pineGreen);
         text-align: center;
+    }
+
+    .infolink p{
+        background-color: var(--pineGreen);
     }
 
     .infolink p:nth-of-type(1){
@@ -383,13 +387,13 @@ section a{
     .infolink ul{
         display: block;
         margin: 0;
-        background-color: var(--christmasRed);
+        background-color: var(--pineGreen);
         grid-column: 1;
         grid-row: 4;
     }
 
     .infolink ul li{
-        background-color: var(--christmasRed);
+        background-color: var(--pineGreen);
         color: var(--snowWhite);
     }
 
@@ -447,7 +451,7 @@ section a{
     }
 
     .arkadelink{
-        background: var(--christmasRed);
+        background: var(--pineGreen);
         display: grid;
         height: 100%;
         grid-template-columns: repeat(2, 1fr);
@@ -476,7 +480,7 @@ section a{
     .arkadelink h2{
         display: block;
         text-align: center;
-        background-color: var(--christmasRed);
+        background-color: var(--pineGreen);
     }
 
     .arkadelink p{
@@ -487,13 +491,17 @@ section a{
 
     .arkadelink ul{
         display: block;
-        background-color: var(--christmasRed);
+        background-color: var(--pineGreen);
         grid-column: 1;
     }
 
     .arkadelink ul li{
-        background-color: var(--christmasRed);
+        background-color: var(--pineGreen);
         color: var(--snowWhite);
+    }
+
+    .arkadelink p{
+        background-color: var(--pineGreen);
     }
 
 
