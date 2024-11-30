@@ -31,9 +31,10 @@ body{
 
 
 
+
+
+
 /* Her koder Arni */
-
-
 .event img{
     width: 100%;
     height: auto;
@@ -260,7 +261,171 @@ section a{
 
 
 
+
+
 /* Her koder Noah */
+.billetter {
+    display: none;
+}
+
+.hero-section {
+    position: relative;
+    height: 260px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+
+}
+
+.hero-section img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.hero-section .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--christmasRed);
+    padding: var(--mdSpacer) var(--mdSpacer);
+    border-radius: 0px;
+    text-align: center;
+    color: var(--snowWhite);
+    font-weight: bold;
+    margin: 0;
+}
+
+.overlay h1 {
+    margin: 0;
+}
+
+.mj-boks {
+    display: grid;
+    background-color: var(--christmasRed);
+    color: var(--snowWhite);
+    /* border-radius: 8px; */
+    text-align: left;
+    padding: 1rem;
+}
+
+.mj-boks article {
+    background: var(--christmasRed);
+}
+
+.mj-boks h2 {
+    background: var(--christmasRed);
+}
+
+.mj-boks-hvad-er-mj {
+    display: none;
+}
+
+.mj-boks-hvad-er-mj h2 {
+    background: var(--christmasRed);
+}
+
+.grøn-boks-desktop-1,
+.grøn-boks-desktop-2 {
+    display: none;
+}
+
+.grøn-boks-desktop-1 h2 {
+    background-color: var(--pineGreen);
+}
+
+.grøn-boks-desktop-1 p {
+    background-color: var(--pineGreen);
+}
+
+.grøn-boks-desktop-2 h2 {
+    background-color: var(--pineGreen);
+}
+
+.grøn-boks-desktop-2 p {
+    background-color: var(--pineGreen);
+}
+
+.grøn-boks-desktop-2 h4 {
+    background-color: var(--pineGreen);
+}
+
+.grøn-boks-desktop-2 h6 {
+    background-color: var(--pineGreen);
+}
+
+button {
+    color: var(--golden);
+    background: var(--golden);
+    text-align: center;
+    background-position: center;
+    cursor: pointer;
+    margin: 1rem;
+    position: center;
+    margin-left: 7rem;
+}
+
+.grøn-boks {
+    background-color: var(--pineGreen);
+    color: var(--snowWhite);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 8px;
+    text-align: left;
+    display: block;
+}
+
+.grøn-boks li {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.grøn-boks h2{
+    background: var(--pineGreen);
+}
+
+.grøn-boks h5 {
+    background: var(--pineGreen);
+}
+
+.grøn-boks p{
+    background: var(--pineGreen);
+}
+
+.box {
+    width: 100%;
+    height: 3rem;
+    background-color: var(--christmasRed);
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.box button {
+    margin-right: 5rem;
+    margin-bottom: -10rem;
+    position: center;
+}
+
+
+.indgang-billede {
+    display: none;
+}
+
+.billetter-info {
+    display: none;
+}
+
+.praktisk-info {
+    display: none;
+}
+
+.overlay h1 {
+    background: var(--christmasRed);
+}
+
+
 
 
 
@@ -425,11 +590,17 @@ div {
     background: var(--pineGreen);
 }
 
+header{
+    position: sticky;
+    top: 0;
+}
+
 nav {
     background: var(--christmasRed);
     height: 100px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 nav div {
@@ -442,6 +613,12 @@ nav h1 {
     font-size: 2rem;
     align-self: center;
     margin-right: var(--mdSpacer);
+}
+
+h1 a {
+    background: var(--christmasRed);
+    color: var(--snowWhite);
+    text-decoration: none;
 }
 
 .fa-bars {
@@ -536,7 +713,6 @@ footer {
 
 footer ul {
     list-style: none;
-
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -544,7 +720,6 @@ footer ul {
 }
 
 footer a {
-    text-decoration: none;
     color: var(--snowWhite);
     background: var(--pineGreen);
 }
@@ -554,9 +729,8 @@ footer p {
     background: var(--pineGreen);
 }
 
-footer .underline {
-    text-decoration: underline;
-}
+
+
 
 
 @media screen and (min-width:1000px) {
@@ -843,34 +1017,313 @@ footer .underline {
 
 
 
+    
+
     /* Her koder Noah */
+@media screen and (min-width:700px) {
+.billetter h2 {
+    background: var(--christmasRed);
+}
+
+.billetter-info p{
+    background: var(--pineGreen);
+}
+
+.billetter-info h4 {
+    background: var(--pineGreen);
+}
+
+.praktisk-info p {
+    background: var(--pineGreen);
+}
+    .hero-section .overlay {
+        position: absolute;
+        top: 130%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: var(--christmasRed);
+        padding: var(--mdSpacer) var(--mdSpacer);
+        border-radius: 0px;
+        text-align: center;
+        color: var(--snowWhite);
+        font-weight: bold;
+        margin: 0;
+        width: 400px;
+        height: 75px;
+        font-size: 1.5rem;
+        text-align: center;
+        position: center;
+    }
+
+    @media screen and (min-width:700px) {}
+
+    .mj-boks {
+        display: none;
+    }
+
+    .mj-boks-hvad-er-mj {
+        display: block;
+        background-color: var(--christmasRed);
+        color: var(--snowWhite);
+        text-align: center;
+        padding: 1rem;
+        width: 100%;
+    }
+
+
+    @media screen and (min-width: 700px) {
+
+        .grøn-boks-desktop-1 {
+            display: flex;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            padding: 2rem;
+            background-color: var(--pineGreen);
+            color: var(--snowWhite);
+            margin: 2rem auto;
+            max-width: 100%;
+            align-items: center;
+            border-radius: 8px;
+        }
+
+        .grøn-boks-desktop-1 .text {
+            padding: 1rem;
+        }
+
+        .grøn-boks-desktop-1 .image img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .grøn-boks-desktop-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            padding: 2rem;
+            background-color: var(--pineGreen);
+            color: var(--snowWhite);
+            margin: 2rem auto;
+            max-width: 100%;
+            align-items: center;
+            border-radius: 8px;
+        }
 
 
 
+        .grøn-boks-desktop-2 .text {
+            padding: 1rem;
+        }
+
+        .grøn-boks-desktop-2 .image img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    }
 
 
+    .billetter {
+        display: none;
+        background-color: var(--christmasRed);
+        color: var(--snowWhite);
+        text-align: center;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .billetter-info {
+        display: none;
+    }
+
+}
 
 
+.grøn-boks {
+    background-color: var(--pineGreen);
+    color: var(--snowWhite);
+    padding: 1rem;
+    margin: 1rem;
+    margin-left: none;
+    padding-left: none;
+    border-radius: 8px;
+    text-align: left;
+    display: block;
+}
+
+button {
+    color: var(--golden);
+    background: var(--golden);
+    text-align: center;
+    background-position: center;
+    cursor: pointer;
+    margin: 1rem;
+    position: center;
+    margin-left: 7rem;
+    width: 10rem;
+
+}
+
+.grøn-boks {
+    background-color: var(--pineGreen);
+    color: var(--snowWhite);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 8px;
+    text-align: left;
+    display: block;
+}
+
+.grøn-boks li {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
 
 
+.box {
+    width: 100%;
+    height: 3rem;
+    background-color: var(--christmasRed);
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.box button {
+    margin-right: 5rem;
+    margin-bottom: -10rem;
+    position: center;
+}
+
+@media (max-width: 768px) {
+    .mj-boks-hvad-er-mj {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .billetter {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .billetter {
+        display: block;
+    }
 
 
+}
+
+@media screen and (min-width: 700px) {
+    .indgang-billede {
+        display: none;
+    }
+}
+
+    @media screen and (min-width: 700px) {
+        .billetter-info {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            background-color: var(--pineGreen);
+            color: var(--snowWhite);
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 8px;
+        }
+
+        .billetter-text {
+            display: flex;
+            flex-direction: column;
+            gap: 0.2rem;
+        }
+
+        .billetter-text h3,
+        .billetter-text h4 {
+            color: var(--snowWhite);
+            margin-bottom: 0.5rem;
+        }
+
+        .billetter-text p {
+            margin-bottom: 1.5rem;
+        }
+
+        .billetter-images {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .billetter-images img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    }
+
+    @media screen and (min-width: 700px) {
+        .praktisk-info {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            background-color: var(--pineGreen);
+            color: var(--snowWhite);
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 8px;
+        }
+
+        .praktisk-info-tekst {
+            display: flex;
+            flex-direction: column;
+            gap: 0.2rem;
+        }
+
+        .praktisk-info-tekst ul {
+            font-weight: 100;
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+            font-weight:
+
+        }
+
+        .praktisk-info-tekst p {
+            margin-bottom: 2em;
+            font-size: 1.1rem;
+        }
+
+        .praktisk-info-images {
+            display: flex;
+            flex-direction: column;
+            gap: 5rem;
+
+        }
+
+        .praktisk-info-images img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    }
+
+    @media screen and (min-width: 700px) {
 
 
+        .grøn-boks {
+            display: none;
+        }
+
+        @media screen and (min-width: 700px) {
 
 
+            @media screen and (min-width: 700px) {
 
 
-
-
-
-
-
-
-
-
-
-
+                .overflydende-billeder-desktop {
+                    display: none;
+                }
+            }
+            }
 
 
 
@@ -942,7 +1395,7 @@ footer .underline {
         }
     
         .dropdown ul li {
-            margin: 1rem;
             border: none;
         }
+}
 }
