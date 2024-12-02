@@ -94,6 +94,7 @@ p{
 .billetsection{
     background-color: var(--christmasRed);
     text-align: center;
+    padding: var(--mdSpacer);
 }
 
 main > .billetsection{
@@ -116,7 +117,7 @@ main > .billetsection{
     background: var(--golden);
     color: var(--snowWhite);
     padding: var(--smSpacer) var(--lrgSpacer);
-    margin-bottom: var(--lrgSpacer);
+    margin: var(--lrgSpacer);
     border-radius: 6px;
 }
 
