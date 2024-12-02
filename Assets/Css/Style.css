@@ -745,7 +745,6 @@ footer {
     background:var(--pineGreen);
     height: 260px;
     width: 100%;
-    z-index: 9999999999999999999999999;
 }
 
 footer ul {
@@ -766,6 +765,7 @@ footer a {
 footer p {
     text-align: center;
     background: var(--pineGreen);
+    margin-bottom: 0;
 }
 
 
@@ -774,9 +774,6 @@ footer p {
 
 @media screen and (min-width:1000px) {
     /* Genreal CSS */
-    p {
-        font-size: var(--mdSpacer);
-    }
 
     main *{
         font-size: 110%;
@@ -1427,6 +1424,10 @@ button {
 
 .rMenu2 div:nth-of-type(even) {
     margin-left: var(--lrgSpacer);
+}
+
+.rMenu1 p:nth-of-type(2){
+    font: var(--smSpacer);
 }
 
 .menuHojre {
