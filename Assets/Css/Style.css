@@ -91,6 +91,17 @@ p{
     background: var(--christmasRed);
 }
 
+.billetsection{
+    background-color: var(--christmasRed);
+    text-align: center;
+}
+
+main > .billetsection{
+    background-color: var(--christmasRed);
+    padding: var(--lrgSpacer);
+    margin-bottom: 0;
+}
+
 .introtext h1, p {
     background: var(--christmasRed);
 }
@@ -98,6 +109,15 @@ p{
 .eventlink img{
     height: auto;
     width: 100%;
+}
+
+.bestilbilletter{
+    text-decoration: none;
+    background: var(--golden);
+    color: var(--snowWhite);
+    padding: var(--smSpacer) var(--lrgSpacer);
+    margin-bottom: var(--lrgSpacer);
+    border-radius: 6px;
 }
 
 section a{
@@ -735,6 +755,7 @@ footer ul {
     align-items: center;
     padding-top: var(--lrgSpacer);
     padding-bottom: var(--lrgSpacer);
+    margin-top: 0;
 }
 
 footer a {
