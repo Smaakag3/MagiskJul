@@ -17,6 +17,10 @@ body{
     margin: 0;
 }
 
+main * {
+    line-height: 150%;
+}
+
 
 :root {
 --christmasRed:hsl(341, 95%, 32%);
@@ -478,7 +482,7 @@ header {
 
 .rMenu1 {
     background-color: var(--pineGreen);
-    padding: 5px;
+    padding: var(--lrgSpacer);
     border-radius: 6px;
     max-width: 100%;
     margin: 25px;
@@ -501,7 +505,8 @@ header {
 .rMenu1 ul {
     background: var(--pineGreen);
     padding-left: 20px;
-    margin-top: 5px;
+    margin-left: var(--mdSpacer);
+    margin-right: var(--mdSpacer);
 }
 
 .rMenu1 ul li {
@@ -550,7 +555,7 @@ margin-bottom: var(--lrgSpacer);
 
 .rMenu2 {
     background-color: var(--pineGreen);
-    padding: 5px;
+    padding: var(--lrgSpacer);
     border-radius: 6px;
     max-width: 100%;
     margin: 25px;
@@ -585,6 +590,7 @@ margin-bottom: var(--lrgSpacer);
     background: var(--pineGreen);
     margin-bottom: 0;
 }
+
 
 div {
     background: var(--pineGreen);
@@ -711,6 +717,7 @@ footer {
     background:var(--pineGreen);
     height: 260px;
     width: 100%;
+    z-index: 9999999999999999999999999;
 }
 
 footer ul {
@@ -718,7 +725,8 @@ footer ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding-top: 2rem;
+    padding-top: var(--lrgSpacer);
+    padding-bottom: var(--lrgSpacer);
 }
 
 footer a {
@@ -737,6 +745,13 @@ footer p {
 
 @media screen and (min-width:1000px) {
     /* Genreal CSS */
+    p {
+        font-size: var(--mdSpacer);
+    }
+
+    main *{
+        font-size: 110%;
+    }
 
     .eventMain h3{
         text-align: center;
@@ -1375,6 +1390,14 @@ button {
 
 .menuVenstre {
     padding-right: var(--smSpacer);
+}
+
+.rMenu2 div:nth-of-type(odd) {
+    margin-right: var(--lrgSpacer);
+}
+
+.rMenu2 div:nth-of-type(even) {
+    margin-left: var(--lrgSpacer);
 }
 
 .menuHojre {
