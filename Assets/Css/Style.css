@@ -1405,6 +1405,10 @@ button {
     margin-left: var(--lrgSpacer);
 }
 
+.rMenu1 p:nth-of-type(2){
+    font: var(--smSpacer);
+}
+
 .menuHojre {
     padding-left: var(--smSpacer);
 }
