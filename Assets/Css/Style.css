@@ -629,6 +629,14 @@ h1 a {
     text-decoration: none;
 }
 
+nav ul li a:hover{
+    border-bottom: 2px solid var(--snowWhite);
+}
+
+nav h1 a:hover{
+    border-bottom: 2px solid var(--snowWhite);
+}
+
 .fa-bars {
     font-size: 3rem;
     color: var(--snowWhite);
