@@ -140,6 +140,8 @@ section a{
     align-items: center;
 }
 
+/* Da vi arbejder mobile-first selector vi de elemter som skal gemmes når der bruges en enhed under et vis antal pixels, hvor i vores tilfælde er 1000 pixels. Dette gør vi ved at bruge Property og Value 'Display: none', som gør at det man har valgt ikke bliver fremvist */
+
 .eventlink img{
     display: none;
 }
@@ -818,6 +820,8 @@ footer p {
 
     /* Her koder Arni */
 
+    /* Til vores desktop layout har vi valgt at tage udgangspunkt i Display: Grid i vores Media Queries. Display: Grid gør det muligt for os at sætte indholdet op som vi har lyst, samt gøre desktop layoutet responsivt da med Property og Value Grid-template-colums: repeat(2, 1fr) sætter vi to kolonner op som optager den samme brøkdel af skærmen hver. Det vil sige at indholdet i kolonne 1 vil altid være lige så bred som indholdet i kolonne 2. */
+
     .introtext{
         margin: var(--lrgSpacer);
         padding: var(--lrgSpacer);
@@ -832,6 +836,8 @@ footer p {
     .introtext p {
         background: var(--christmasRed);
     }
+
+    /* I vores Media Queries bruger vi tidligere styling med Display: None, hvor vi giver attributten Display: Block eller Inline-block for at fremvise indholdet igen. Det modsatte bliver gjort med de tidligere Mobil attributter, som får Display: None. Derefter bliver indholdet sat ind i det Grid som vi opsatte før. */
 
     .eventlink{
         background: var(--christmasRed);
