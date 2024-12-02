@@ -686,7 +686,7 @@ input[type=checkbox] {
     display: none;
 }
 
-/* Click to expand button */
+/* Her laver vi en inline block så den ligger som et element for sig selv */
 
 label {
     display: inline-block;
@@ -699,7 +699,7 @@ label {
     text-align: center;
 }
 
-/*  Vi vil ikke have at ul bliver vist når checkboksen ikke er tjekket, derfor vil vi sætte den til display none */
+/*  Vi vil ikke have at ul bliver vist når checkboksen ikke er tjekket, derfor vil vi sætte den til display none, vi laver en position absolout så den ligger sig i forhold til sit forældre element.*/
 
 .dropdown ul {
     display: none;
